@@ -1,0 +1,50 @@
+/* style.css */
+
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #FF4500;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  .quote {
+    text-align: center;
+  }
+  
+  #quote-text {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #refresh-btn {
+    background-color: #FF4500;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  #refresh-btn:hover {
+    background-color: #FF6347;
+  }
+  

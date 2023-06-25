@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Spooky Quote Generator</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Spooky Quote Generator</h1>
+  </header>
+  
+  <div class="container">
+    <div class="quote">
+      <p id="quote-text">Loading...</p>
+      <button id="refresh-btn" onclick="change()">Get a Spooky Quote</button>
+    </div>
+  </div>
+  <script type="text/javascript" src="{{ url_for('static', filename='scripts/getQuote.js') }}"></script>
+</body>
+</html>
