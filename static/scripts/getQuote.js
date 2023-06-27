@@ -1,9 +1,5 @@
 const quote = document.querySelector("#quote-text");
 
-// const change = () => {
-//     quote.innerHTML = "Hello, world!";
-// }
-
 
 const makeApiCall = () => {
     // Fetch the quote from the API
